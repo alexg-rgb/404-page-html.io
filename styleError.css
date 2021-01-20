@@ -1,3 +1,53 @@
 body {
-    background-color: blueviolet;
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+}
+body {
+    background-image: url("https://mcdn.wallpapersafari.com/medium/41/84/VKGS0n.jpg");
+    background-size: 1600px;
+}
+body {
+    color:cyan
+}
+a {
+    color:cyan
+}
+section {
+    font-size: 200px;
+    position: absolute;
+    top:30%;
+    left:0%;
+    right:10%;
+    bottom;50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+article {
+    position: absolute;
+    top: 60%;
+    left:10%;
+    right:0%;
+    bottom;50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+
+}
+p.sorry{
+    text-align: center;
+
+}
+footer {
+    position: absolute;
+    top: 90%;
+    left:80%;
+    right:0%;
+    bottom;10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    transition: width 2s;
+}
+footer:hover {
+    width: 300px;
 }
